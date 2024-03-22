@@ -1,5 +1,6 @@
 let year = +prompt('Какого года ты рождения?');
 let age = `${2024 - year}`;
+
 if (year != 0 || null ) {
     alert(`${'Твой возраст:'} ${age}`);
 } else {
