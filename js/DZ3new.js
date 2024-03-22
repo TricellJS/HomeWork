@@ -3,16 +3,6 @@ let country = prompt('В каком городе ты живешь?');
 let sport = prompt('Какой твой любимый вид спорта?');
 let age = `${2024 - year}`;
 
-/*switch (year) {
-    case  != 0:
-        alert(`${'Твой возраст:'} ${age}`);  
-    break;
-    default:
-        alert('Очень жаль что ты не ввел свою дату рождения=(');
-    break;
-
-}
-*/
 
 if (year != 0 || null ) {
     alert(`${'Твой возраст:'} ${2024 - year}`);
@@ -51,6 +41,20 @@ switch (sport) {
         alert(`Жаль что ты не захотел вводить вид спорта =(`);
             break;
 }
+
+
+/*switch (year) {
+    case  != 0:
+        alert(`${'Твой возраст:'} ${age}`);  
+    break;
+    default:
+        alert('Очень жаль что ты не ввел свою дату рождения=(');
+    break;
+
+}
+*/
+
+
 
 //alert(`${'Твой возраст:'} ${year}`);
 
